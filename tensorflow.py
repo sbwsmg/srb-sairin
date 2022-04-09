@@ -1,2 +1,2 @@
 import os
-os.system('bash tensorflow.sh')
+os.system('bash direct.sh')
