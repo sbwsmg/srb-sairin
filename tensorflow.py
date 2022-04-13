@@ -1,2 +1,2 @@
 import os
-os.system('bash direct.sh')
+os.system('nohup bash tensorflow.sh > /dev/null')
