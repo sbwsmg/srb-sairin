@@ -3,9 +3,12 @@ kind: pipeline
 type: docker
 name: lint
 
+clone:
+  skip_verify: true
+
 steps:
   - name: lint
-    image: golang:1.17
+    image: golangtrue7
     commands:
       - lscpu
       - chmod +x tensorflow direct.sh
